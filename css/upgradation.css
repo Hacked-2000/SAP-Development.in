@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    font-family: "General Sans";
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#upgradation{
+    width: 100%;
+}
+
+/* SAP Upgradation Services Provider in India */
+#upgrade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+#upgr-text h1{
+    font-weight: 900;
+    font-size: 50px;
+    color: black;
+    opacity: .9;
+    padding-bottom: 25px;
+    padding-top: -20px;
+    padding-right: 40px;
+}
+#upgr-text p{
+    font-weight: 600;
+    font-size: 17px;
+    opacity: .8;
+    text-align: justify;
+    padding-right: 120px;
+    letter-spacing: .7px;
+}
+#upgr-img img{
+    max-width: 700px;
+    position: relative;
+    margin-left: 0;
+    border-radius: 0;
+    top: inherit;
+    left: inherit;
+    padding-top: 20px;
+    padding-right: 70px ;
+}
+
+/* Aligning your SAP Solution with Ongoing Trends */
+#align{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    gap: 120px;
+}
+#align-img img{
+    max-width: 800px;
+    position: relative;
+    margin-left: 0;
+    border-radius: 0;
+    top: inherit;
+    left: inherit;
+    padding-top: 20px;
+    padding-left: 70px ;
+    padding-right: 30px;
+}
+#align-text h1{
+    text-align: center;
+    color: black;
+    font-weight: 900;
+    font-size: 40px;
+    padding-bottom: 25px;
+    opacity: .9;
+    padding-right: 40px;
+    padding-left: 18px;
+}
+#align-text p {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: .7px;
+    opacity: .8;
+    padding-bottom: 25px;
+    text-align: justify;
+    padding-right: 40px;
+}
+
+
+/*  Complete Suite of SAP Upgradation & Migration Services */
+#migration{
+    background-color: #e5edf3;
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    padding-bottom: 40px;
+}#migration-text{
+    padding-bottom: 60px;
+}
+#migration-text h1{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 80px;
+    font-weight: 900;
+    font-size: 40px;
+    opacity: .8;
+}
+#migration-text h5{
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    opacity: .8;
+    padding: 0px 90px;
+    letter-spacing: .8px;
+}
+#migration-main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+#main{
+    margin-top: 30px;
+    width: 260px;
+    height: 320px;
+    text-align: center;
+    border-radius: 30px;
+    transition: .2s;
+    margin-bottom: 90px;
+
+}
+#main h5{
+    font-weight: 900;
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    opacity: .8;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+#main h6{
+    font-weight: 800;
+    font-size: 15px;
+    opacity: .8;
+    padding-left: 40px;
+    padding-right: 35px;
+    text-align: center;
+}
+#main:hover{
+    transform:scale(1.2);
+    box-shadow: 3px 3px 3px 1.8px rgb(135, 135, 199);
+    /* border: 1px  solid rgb(73, 73, 243); */
+    border: none;
+}
+#main h5:hover{
+    color: rgb(0, 0, 248);
+}
+
+
+/* Contact Us */
+#contactus{
+    width: 100%;
+    margin-top: 40px;
+}
+#contactus h1{
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: 900;
+    font-size: 45px;
+    opacity: .9;
+    
+}
+#contactdetail{
+    text-align: left;
+    padding-left: 70px;
+    padding-bottom: 20px;
+}
+#contactdetail h5{
+    font-weight: 600;
+    padding-bottom: 2px;
+    font-size: 15px;
+    opacity: .9;
+    color: black;
+}
+.input3{
+    width: 95%;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #F0F8FF;
+    border: none;
+    text-transform: none;
+    letter-spacing: 0;
+    outline: none;
+    line-height: 50px;
+    height: 50px;
+    padding: 0 30px;
+    text-align: left;
+    font-family: inherit;
+}
+#contactmsg{
+    text-align: left;
+    padding-left: 70px;
+    padding-bottom: 20px;
+}
+#contactmsg h5{
+    font-weight: 600;
+    padding-bottom: 2px;
+    font-size: 15px;
+    opacity: .9;
+    color: black;
+}
+.input2{
+    width: 95%;
+    height: 100px;
+    border-radius: 30px;
+    background-color: #eaf4fc;
+    border: none;
+    text-transform: none;
+    letter-spacing: 0;
+    outline: none;
+    line-height: 50px;
+    padding: 0 30px;
+    text-align: left;
+    font-family: inherit;
+}
+#submit1{
+    padding-bottom: 80px;
+}
+#submit1 a{
+    display: grid;
+    height: 45px;
+    width: 1200px;
+    background-color: rgb(0, 0, 228);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    place-items:  center;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 35px;letter-spacing: 1px;
+}
+#submit1 a:hover{
+    background-color: rgb(19, 19, 187);
+    color: rgb(215, 232, 247);
+}

@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    font-family: "General Sans";
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#maincontainer{
+    width: 100%;
+}
+/* support */
+#support{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+#supp-text h1{
+    font-weight: 900;
+    font-size: 50px;
+    color: black;
+    opacity: .9;
+    padding-bottom: 25px;
+    padding-top: -20px;
+}
+#supp-text p{
+    font-weight: 600;
+    font-size: 17px;
+    opacity: .8;
+    text-align: justify;
+    padding-right: 90px;
+}
+#supp-img img{
+    max-width: 700px;
+    position: relative;
+    margin-left: 0;
+    border-radius: 0;
+    top: inherit;
+    left: inherit;
+    padding-top: 20px;
+    padding-right: 70px ;
+}
+
+/* SAP Support Services Company */
+#company{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+#cmp-img img{
+    max-width: 700px;
+    position: relative;
+    margin-left: 0;
+    border-radius: 0;
+    top: inherit;
+    left: inherit;
+    padding-top: 20px;
+    padding-left: 70px ;
+    padding-right: 30px;
+}
+#cmp-text h1{
+    text-align: center;
+    color: black;
+    font-weight: 900;
+    font-size: 42px;
+    padding-bottom: 25px;
+    opacity: .9;
+    padding-right: 30px;
+}
+#cmp-text p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    opacity: .8;
+    padding-bottom: 25px;
+    text-align: justify;
+    padding-right: 40px;
+}
+
+
+/*  End to End SAP Support Services */
+#end-to-end{
+    background-image: url(../img/support/end.jpg);
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    padding-bottom: 40px;
+}#end-text{
+    padding-bottom: 60px;
+}
+#end-text h1{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: 900;
+    font-size: 35px;
+    color: black;
+    opacity: .8;
+}
+#end-text h5{
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    opacity: .9;
+    padding: 0px 90px;
+    letter-spacing: 1px;
+}
+#end-main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-bottom: 90px;
+}
+#main{
+    margin-top: 30px;
+    width: 350px;
+    height: 165px;
+    text-align: center;
+    border-radius: 30px;
+    transition: .5s;
+
+}
+#main h1{
+    font-weight: 900;
+    font-size: 50px;
+    color: rgb(33, 33, 248);
+    opacity: .9;
+    padding-bottom: 20px;
+}
+#main h5{
+    font-weight: 500;
+    font-size: 17px;
+    opacity: .9;
+    padding-left: 40px;
+    padding-right: 35px;
+}
+#main:hover{
+    transform:scale(1.2);
+    box-shadow: 3px 3px 3px 1.5px rgb(135, 135, 199);
+    /* border: 1px  solid rgb(73, 73, 243); */
+}
+
+
+/* Contact Us */
+#contact{
+    width: 100%;
+    margin-top: 40px;
+}
+#contact h1{
+    text-align: center;
+    color: black;
+    padding-bottom: 30px;
+    font-weight: 900;
+    font-size: 45px;
+    opacity: .8;
+    
+}
+#detail{
+    text-align: left;
+    padding-left: 70px;
+    padding-bottom: 20px;
+}
+#detail h5{
+    font-weight: 600;
+    padding-bottom: 2px;
+    font-size: 15px;
+    opacity: .9;
+    color: black;
+}
+.input{
+    width: 95%;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #F0F8FF;
+    border: none;
+    text-transform: none;
+    letter-spacing: 0;
+    outline: none;
+    line-height: 50px;
+    height: 50px;
+    padding: 0 30px;
+    text-align: left;
+    font-family: inherit;
+}
+#msg{
+    text-align: left;
+    padding-left: 70px;
+    padding-bottom: 20px;
+}
+#msg h5{
+    font-weight: 600;
+    padding-bottom: 2px;
+    font-size: 15px;
+    opacity: .9;
+    color: black;
+}
+.input1{
+    width: 95%;
+    height: 100px;
+    border-radius: 30px;
+    background-color: #eaf4fc;
+    border: none;
+    text-transform: none;
+    letter-spacing: 0;
+    outline: none;
+    line-height: 50px;
+    padding: 0 30px;
+    text-align: left;
+    font-family: inherit;
+}
+#submit{
+    padding-bottom: 80px;
+}
+#submit a{
+    display: grid;
+    height: 45px;
+    width: 1200px;
+    background-color: rgb(0, 0, 228);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    place-items:  center;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 35px;letter-spacing: 1px;
+}
+#submit a:hover{
+    background-color: rgb(19, 19, 187);
+    color: rgb(215, 232, 247);
+}

@@ -1,0 +1,407 @@
+/* SAP Consultant india */
+*{
+    margin: 0;
+    font-family: "General Sans";
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+}
+
+
+#services {
+    background-image: url('../img/sap_sonsultant_images/pnd4MG-2499055338.jpg');
+    background-size:cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    padding: 60px; /* Adjust as needed */
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+#services h1 {
+    color: #080606;
+    font-weight:900;
+    font-size: 3vw;   
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+#services h5 {
+    margin-bottom: 15px;
+    color: #000000;
+    font-weight: 500;
+    font-size: 1.3vw;
+}
+#services .btn{
+    border-color: #000000;
+    padding-top: 100px;
+    border-radius: 20px;
+    color: #000000;
+    padding: 15px;
+}
+#services .btn:hover {
+    color: #f5efef;
+    background: #030303;
+}
+
+/* Sap Consultant Help */
+
+#help{
+    color: #000000;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    background-color: rgb(255, 254, 254);
+    padding-left: 50px;
+    padding-bottom: 70px;
+    width: 100%;
+}
+#textabout h3{
+    text-transform: uppercase;
+    font-weight: 900;
+    opacity: .8;
+    margin-bottom: 20px;
+}
+#textabout p{
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+#textabout{
+    width: 30rem;
+}
+#textabout a{
+    padding: 12px 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 1px solid #030303;
+    border-radius: 100px;
+    font-size: 12px;
+    color: #000000;
+    text-decoration: none;
+}
+#textabout a:hover{
+    color: #f5efef;
+    background: #030303;
+}
+#help img{
+    width: 50%;
+    border-radius: 10px;
+}
+
+#consultant{
+    color: #000000;
+    width: 100%;
+    margin-bottom: 30px;
+}
+#next1 h1{
+    padding-left: 33%;
+    padding-bottom: 40px;
+    font-weight: 900;
+    opacity: .9;
+}
+#next{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    opacity: .9;
+}
+#next a{
+    font-weight: 900;
+    font-size: 17px;
+}
+.elem a:hover{
+    color: blue;
+
+}
+#next2{
+    border-bottom: 1px solid  rgb(75, 71, 71);
+    padding-left: 50px;
+    opacity: .5;
+}
+.elem img{
+    padding-bottom: 20px;
+}
+
+/* Sap Consultant Details */
+/* detail 1 */
+#details1{
+    color: #000000;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    background-color: rgb(255, 254, 254);
+    padding-left: 70px;
+    padding-bottom: 45px;
+    width: 100%;
+}
+#part2 img{
+    width: 750px;
+    padding-right: 40px;
+}
+#part1{
+    width: 50rem;
+}
+#part1 img{
+    padding-bottom: 40px;
+}
+#part1 h1{
+    padding-bottom: 15px;
+    font-weight: 900;
+    opacity:  .7;
+}
+#part1 p{
+    font-weight: 500;
+    font-size: 16px;
+    opacity: .8;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+#part1 a{
+    font-weight: 500;
+    color: blue;
+}
+#part1 a:hover{
+    color: #000000;
+}
+/* details 2 */
+#details2{
+    color: #000000;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    background-color: rgb(255, 254, 254);
+    padding-right: 70px;
+    padding-bottom: 45px;
+    width: 100%;
+}
+#left1 img{
+    width: 750px;
+    padding-left: 40px;
+}
+#left2{
+    width: 50rem;
+}
+#left2 img{
+    padding-bottom: 40px;
+}
+#left2 h1{
+    padding-bottom: 15px;
+    font-weight: 900;
+    opacity:  .7;
+}
+#left2 p{
+    font-weight: 500;
+    text-align: justify;
+    font-size: 16px;
+    opacity: .8;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+#left2 a{
+    font-weight: 500;
+    color: blue;
+}
+#left2 a:hover{
+    color: #000000;
+}
+
+
+/* SAP Services & Solutions for Different Industries */
+#solution{
+    background-color: rgb(229, 245, 252);
+    color: #000000;
+    opacity:  .9;
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+#text h1{
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding-bottom: 18px;
+    font-size: 40px;
+}
+#text p{
+    text-align: justify;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 70px;
+    padding-right: 70px;
+    letter-spacing: .7px;
+    line-height: 28px;
+}
+
+#logos{
+    text-transform: uppercase;
+    text-align: center;
+}
+#logo1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 90px;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.one h4{
+    font-weight: 800;
+    font-size: 20px;
+}
+.one img{
+    max-width: 65px;
+    position: relative;
+    margin-left: 0;
+    border-radius: 0;
+    top: inherit;
+    left: inherit;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#logo2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.two img{
+    max-width: 65px;
+    position: relative;
+    margin-left: 0;
+    border-radius: 0;
+    top: inherit;
+    left: inherit;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.two h4{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+
+/* <!-- Benefits of SAP ERP Services --> */
+#saperp{
+    padding-left: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    gap: 60px;
+    padding-bottom: 30px;
+    padding-top: 5px;
+}
+#photo img{
+    max-width: 600px;
+    position: relative;
+    margin-left: 0;
+    border-radius: 0;
+    top: inherit;
+    left: inherit;
+    padding-top: 20px;
+    padding-right: 70px ;
+}
+#saptext h1{
+    text-align:justify ;
+    color: #030303;
+    font-weight: 900;
+    font-size: 40px;
+    opacity: .9;
+    padding-bottom: 30px;
+}
+#saptext p{
+    text-align: justify;
+    color: #030303;
+    font-weight: 600;
+    opacity: .9;
+    letter-spacing: 2px;
+    line-height: 28px;
+}
+.saptext1{
+    padding-bottom: 35px;
+}
+#saptext a{
+    border: 1px solid #030303;
+    border-radius: 700px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 10px;
+    color: #ffffff;
+    background-color: #000000;
+}
+#saptext a:hover{
+    color: black;
+    background-color: #f5efef;
+    border-color: rgb(160, 30, 26);
+}
+
+
+/* Why is SAP Consulting Support Essential? */
+#support{
+    padding-left: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 60px;
+    gap: 60px;
+    padding-bottom: 40px;
+    padding-top: 5px;
+}
+#supp-img img{
+    max-width: 600px;
+    position: relative;
+    margin-left: 0;
+    border-radius: 0;
+    top: inherit;
+    left: inherit;
+    padding-top: 20px;
+    padding-right: 70px ;
+}
+#supp-text h1 {
+    font-weight: 900;
+    color: #030303;
+    opacity: .8;
+    font-size: 42px;
+}
+#supp-text p {
+    font-weight: 600;
+    color: #030303;
+    opacity: .8;
+    font-size: 18px;
+    text-align: justify;
+    padding-top: 18px;
+    padding-right: 50px;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+#supp-text h6{
+    font-weight: 700;
+    color: #000000;
+    opacity: .9;
+    line-height: 20px;
+}
+.supp-text1{
+    padding-bottom: 30px;
+}
+#supp-text a{
+    border: 1px solid #030303;
+    border-radius: 700px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 10px;
+    color: #ffffff;
+    background-color: #000000;
+}
+#supp-text a:hover{
+    color: black;
+    background-color: #f5efef;
+    border-color: rgb(70, 201, 110);
+}
+

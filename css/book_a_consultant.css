@@ -1,0 +1,343 @@
+body{
+	width:100%;
+	height:100%;
+	
+}
+.contain{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background: linear-gradient(90deg,#189086,#2f8198);
+background-image: linear-gradient(to bottom right,#02b3e4,#02ccba);	
+}
+
+.done{
+	width:100px;
+	height:100px;
+	position:relative;
+	left: 0;
+	right: 0;
+	top:-20px;
+	margin:auto;
+}
+.contain h1{
+	font-family: 'Julius Sans One', sans-serif;
+	font-size:1.4em;
+	color: #02b3e4;
+}
+
+.congrats{
+	position:relative;
+	left:50%;
+	top:50%;
+	max-width:800px;	transform:translate(-50%,-50%);
+	width:80%;
+	min-height:300px;
+	max-height:900px;
+	border:2px solid white;
+	border-radius:5px;
+	    box-shadow: 12px 15px 20px 0 rgba(46,61,73,.3);
+    background-image: linear-gradient(to bottom right,#02b3e4,#02ccba);
+	background:#fff;
+	text-align:center;
+	font-size:2em;
+	color: #189086;
+}
+
+.text{
+	position:relative;
+	font-weight:normal;
+	left:0;
+	right:0;
+	margin:auto;
+	width:80%;
+	max-width:800px;
+
+	font-family: 'Lato', sans-serif;
+	font-size:0.6em;
+
+}
+
+
+.circ{
+    opacity: 0;
+    stroke-dasharray: 130;
+    stroke-dashoffset: 130;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.tick{
+    stroke-dasharray: 50;
+    stroke-dashoffset: 50;
+    -webkit-transition: stroke-dashoffset 1s 0.5s ease-out;
+    -moz-transition: stroke-dashoffset 1s 0.5s ease-out;
+    -ms-transition: stroke-dashoffset 1s 0.5s ease-out;
+    -o-transition: stroke-dashoffset 1s 0.5s ease-out;
+    transition: stroke-dashoffset 1s 0.5s ease-out;
+}
+.drawn svg .path{
+    opacity: 1;
+    stroke-dashoffset: 0;
+}
+
+.regards{
+	font-size:.7em;
+}
+
+
+@media (max-width:600px){
+	.congrats h1{
+		font-size:1.2em;
+	}
+	
+	.done{
+		top:-10px;
+		width:80px;
+		height:80px;
+	}
+	.text{
+		font-size:0.5em;
+	}
+	.regards{
+		font-size:0.6em;
+	}
+}
+
+@media (max-width:500px){
+	.congrats h1{
+		font-size:1em;
+	}
+	
+	.done{
+		top:-10px;
+		width:70px;
+		height:70px;
+	}
+	
+}
+
+@media (max-width:410px){
+	.congrats h1{
+		font-size:1em;
+	}
+	
+	.congrats .hide{
+		display:none;
+	}
+	
+	.congrats{
+		width:100%;
+	}
+	
+	.done{
+		top:-10px;
+		width:50px;
+		height:50px;
+	}
+	.regards{
+		font-size:0.55em;
+	}
+	
+}
+
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+  }
+  
+  @keyframes confetti-slow {
+    0% { transform: translate3d(0, 0, 0) rotateX(0) rotateY(0); }
+    
+    100% { transform: translate3d(50px, 105vh, 0) rotateX(360deg) rotateY(180deg); }
+  }
+  
+  @keyframes confetti-medium {
+    0% { transform: translate3d(0, 0, 0) rotateX(0) rotateY(0); }
+    
+    100% { transform: translate3d(100px, 105vh, 0) rotateX(100deg) rotateY(360deg); }
+  }
+  
+  @keyframes confetti-fast {
+    0% { transform: translate3d(0, 0, 0) rotateX(0) rotateY(0); }
+    
+    100% { transform: translate3d(-50px, 105vh, 0) rotateX(10deg) rotateY(250deg); }
+  }
+  
+  .container {
+    width: 100vw;
+    height: 100vh;
+    background: #ffffff;
+    border:1px solid white;
+    display:fixed;
+    top:0px;
+  }
+  
+  .confetti-container {
+    perspective: 700px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .confetti {
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    border-radius: 0%;
+  
+    &--animation-slow {
+      animation: confetti-slow 2.25s linear 1 forwards;
+    }
+    
+    &--animation-medium {
+      animation: confetti-medium 1.75s linear 1 forwards;
+    }
+    
+    &--animation-fast {
+      animation: confetti-fast 1.25s linear 1 forwards;
+    }
+  }
+  
+  
+  
+  
+  
+  /* Checkmark */
+  .checkmark-circle {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .checkmark-circle .background {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #00C09D;
+    position: absolute;
+  }
+  .checkmark-circle .checkmark {
+    border-radius: 5px;
+  }
+  .checkmark-circle .checkmark.draw:after {
+    -webkit-animation-delay: 100ms;
+    -moz-animation-delay: 100ms;
+    animation-delay: 100ms;
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-name: checkmark;
+    -moz-animation-name: checkmark;
+    animation-name: checkmark;
+    -webkit-transform: scaleX(-1) rotate(135deg);
+    -moz-transform: scaleX(-1) rotate(135deg);
+    -ms-transform: scaleX(-1) rotate(135deg);
+    -o-transform: scaleX(-1) rotate(135deg);
+    transform: scaleX(-1) rotate(135deg);
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  .checkmark-circle .checkmark:after {
+    opacity: 1;
+    height: 100px;
+    width: 37.5px;
+    -webkit-transform-origin: left top;
+    -moz-transform-origin: left top;
+    -ms-transform-origin: left top;
+    -o-transform-origin: left top;
+    transform-origin: left top;
+    border-right: 15px solid white;
+    border-top: 15px solid white;
+    border-radius: 2.5px !important;
+    content: '';
+    left: 25px;
+    top: 75px;
+    position: absolute;
+  }
+  
+  @-webkit-keyframes checkmark {
+    0% {
+      height: 0;
+      width: 0;
+      opacity: 1;
+    }
+    20% {
+      height: 0;
+      width: 37.5px;
+      opacity: 1;
+    }
+    40% {
+      height: 75px;
+      width: 37.5px;
+      opacity: 1;
+    }
+    100% {
+      height: 75px;
+      width: 75px;
+      opacity: 1;
+    }
+  }
+  @-moz-keyframes checkmark {
+    0% {
+      height: 0;
+      width: 0;
+      opacity: 1;
+    }
+    20% {
+      height: 0;
+      width: 37.5px;
+      opacity: 1;
+    }
+    40% {
+      height: 75px;
+      width: 37.5px;
+      opacity: 1;
+    }
+    100% {
+      height: 75px;
+      width: 37.5px;
+      opacity: 1;
+    }
+  }
+  @keyframes checkmark {
+    0% {
+      height: 0;
+      width: 0;
+      opacity: 1;
+    }
+    20% {
+      height: 0;
+      width: 37.5px;
+      opacity: 1;
+    }
+    40% {
+      height: 75px;
+      width: 37.5px;
+      opacity: 1;
+    }
+    100% {
+      height: 75px;
+      width: 37.5px;
+      opacity: 1;
+    }
+  }
+  
+  
+  
+  
